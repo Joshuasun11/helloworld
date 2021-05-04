@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\python"
+		},
+		{
+			"path": "..\\html"
+		},
+		{
+			"path": "..\\test"
+		}
+	],
+	"settings": {
+		"svn.path":"C:\\Program Files\\TortoiseSVN\\Bin\\svn.exe",
+		"python.venvFolders": [
+			"Assassins",
+			"2"
+		],
+		"python.venvPath": "C:\\Users\\longb\\projects\\python\\venv",
+		"cSpell.words": [
+			"tqdm"
+		],
+		"view-in-browser.default": "Microsoft Edge",
+		"cmake.generator": ""
+	}
+}
