@@ -21,9 +21,17 @@
 		],
 		"python.venvPath": "C:\\Users\\longb\\projects\\python\\venv",
 		"cSpell.words": [
+			"numpy",
 			"tqdm"
 		],
 		"view-in-browser.default": "Microsoft Edge",
 		"cmake.generator": "",
+		"cmake.configureSettings": {
+		
+		},
+		"editor.fontLigatures": null,
+		"files.associations": {
+			"iostream": "cpp"
+		},
 	}
 }

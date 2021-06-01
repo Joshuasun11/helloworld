@@ -1,12 +1,17 @@
 [
-    {
-      "name": "GCC 9.3.0 in virtualenv",
+  {
+      "name": "Mingw64 GCC",
       "compilers": {
-        "C": "/bin/gcc-9",
+        "C": "C:\\Program Files\\msys64\\mingw64\\bin\\gcc.exe",
         
-        "CXX": "/bin/g++-9"
-
+        "CXX": "C:\\Program Files\\msys64\\mingw64\\bin\\g++.exe"
       },
-      "environmentSetupScript": "${workspaceFolder}/venv/bin/activate"
-    }
+      "preferredGenerator": {
+        "name": "MinGW Makefiles",
+        "platform": "x64"
+      },
+      "environmentVariables": {
+        "CMT_MINGW_PATH": "C:/Program Files/msys64/mingw64/bin"
+      }
+}
 ]
